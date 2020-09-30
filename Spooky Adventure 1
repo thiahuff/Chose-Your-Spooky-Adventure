@@ -29,7 +29,7 @@ if how_to_enter == 1:
 
     if will_enter == 1:
         print("You explore the front room. It feels like you have stepped into the past.")
-        print("the room is full of cobwebs and the ornate furniture is covered in a thick layer of dust, untoutched over the years.")
+        print("the room is full of cobwebs and the ornate furniture is covered in a thick layer of dust, untouched over the years.")
         print("The glint of something gold catches your eye. It is a gold plaque sitting next to an ancient looking urn")
         print("{} says that the writing appears to be Latin and can translate it.".format(sidekick))
         print("After a few minutes of concentrating {} says \"The plaque reads: Dark wishes or deep desires, only the brave or foolish dare break me open to learn my secrets.\"".format(sidekick))
@@ -44,7 +44,7 @@ if how_to_enter == 1:
             print("You lift the urn above your head and slam it down to the floor.")
             print("The urn shatters into impossibly tiny shards and a cloud of ash blooms up filling the room.")
             print("A ghostly figure in a beeaded shift dress forms, thanks you for freeing her and offers you a pearl")
-            print("The aparation says \"If you speak a wish while holding the pearl it will disapear and your wish will come true.\"")
+            print("The apparition says \"If you speak a wish while holding the pearl it will disappear and your wish will come true.\"")
             print("This was a very good adventure, now you and {} just have to decide who gets the wish!".format(sidekick))
 
         elif break_urn == 2:
@@ -60,10 +60,10 @@ if how_to_enter == 1:
         print("You didn't enter a valid choice, I guess your adventure ends here")
 
 if how_to_enter == 2:
-    print("You grap a rock and break a window at the front of the house")
+    print("You grab a rock and break a window at the front of the house")
     print("You carefully avoid the glass around the frame, but {} cuts their hand when they come through.".format(sidekick))
     print("You explore the front room. It feels like you have stepped into the past.")
-    print("the room is full of cobwebs and the ornate furniture is covered in a thick layer of dust, untoutched over the years.")
+    print("the room is full of cobwebs and the ornate furniture is covered in a thick layer of dust, untouched over the years.")
     print("The glint of something gold catches your eye. It is a gold plaque sitting next to an ancient looking urn")
     print("{} says that the writing appears to be Latin and can translate it.".format(sidekick))
     print("After a few minutes of concentrating {} says \"The plaque reads: Dark wishes or deep desires, only the brave or foolish dare break me open to learn my secrets.\"".format(sidekick))
@@ -75,10 +75,10 @@ if how_to_enter == 2:
     break_urn = int(input(">"))
 
     if break_urn == 1:
-        print("{} grabs the urn, their blod streaking down the side, then lifts the urn above their head  and slams it down to the floor.".format(sidekick))
+        print("{} grabs the urn, their blood streaking down the side, then lifts the urn above their head  and slams it down to the floor.".format(sidekick))
         print("The urn shatters into impossibly tiny shards and a cloud of ash blooms up filling the room.")
         print("A ghostly figure in a beeaded shift dress forms, and says \"Thank you for paying the price to free me with your blood.\" then offers you a handful pearls")
-        print("The aparation says \"If you speak a wish while holding one of the pearls it will disapear and your wish will come true.\"")
+        print("The apparition says \"If you speak a wish while holding one of the pearls it will disappear and your wish will come true.\"")
         print("This was a very good adventure, now you and {} just have to decide what to wish for!".format(sidekick))
 
     elif break_urn == 2:
